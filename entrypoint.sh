@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-ARGS="$@"
+ARGS="inlets $@"
 
 # Sets the upstream
 if [[ -n "$TUNNEL_NAME" -a -n "$TUNNEL_URL" ]]; then
